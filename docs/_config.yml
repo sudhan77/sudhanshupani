@@ -1,7 +1,1 @@
-theme: jekyll-theme-minimal
-title: Sudhanshu Pani
-description: Dr Sudhanshu Pani is a faculty at the School of Business Management, NMIMS University, Mumbai.
-collections:
-  articles:
-    output: true
-    permalink: /blog/:collection/:path/
+
