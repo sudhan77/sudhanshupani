@@ -3,17 +3,114 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title | default: "Your Name's Site" }}</title>
-  <!-- Tailwind CSS via CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <!-- Your custom SCSS, which will override or extend Tailwind if needed -->
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <title>{{ page.title | default: site.title }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #3498db;
+      --text-color: #333;
+      --bg-color: #f8f9fa;
+      --max-width: 800px;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Lato', sans-serif;
+      line-height: 1.6;
+      color: var(--text-color);
+      background-color: var(--bg-color);
+    }
+    
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    header {
+      background-color: white;
+      padding: 2rem 0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    
+    header h1 {
+      margin-bottom: 1rem;
+    }
+    
+    nav a {
+      margin-right: 1.5rem;
+      color: var(--text-color);
+      text-decoration: none;
+    }
+    
+    nav a:hover {
+      color: var(--primary-color);
+    }
+    
+    main {
+      padding: 3rem 0;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      color: #666;
+      border-top: 1px solid #eee;
+    }
+    
+    h1, h2, h3 {
+      color: #1a1a1a;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+    
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 2rem; }
+    h3 { font-size: 1.75rem; }
+    
+    p { margin-bottom: 1.5rem; }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin: 1.5rem 0;
+    }
+    
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1.75rem; }
+      h3 { font-size: 1.5rem; }
+      .container { padding: 0 15px; }
+    }
+  </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
-  {% include header.html %}
-  <main class="container mx-auto px-4 py-8">
-    {{ content }}
+<body>
+  <header>
+    <div class="container">
+      <h1>{{ site.title }}</h1>
+      <nav>
+        <a href="/sudhanshupani">Home</a>
+        <a href="/sudhanshupani/about.html">About Me</a>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <div class="container">
+      {{ content }}
+    </div>
   </main>
-  {% include footer.html %}
+  
+  <footer>
+    <div class="container">
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
