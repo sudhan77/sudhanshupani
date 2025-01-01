@@ -1,3 +1,8 @@
+---
+---
+
+/* Your custom styles start here */
+
 /* Importing Lato font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
@@ -12,8 +17,8 @@ body {
   margin: 0 auto; /* Center the content */
 }
 
+/* If you want to override or extend heading styles */
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 15px;
   color: #2c3e50; /* A bit darker blue for headings */
   font-weight: 700; /* Bold headers */
 }
@@ -89,4 +94,4 @@ img {
   h3 {
     font-size: 1.5em;
   }
-} 
+}
