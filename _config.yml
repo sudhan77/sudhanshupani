@@ -3,4 +3,7 @@ plugins:
 - jekyll-remote-theme
 title: Sudhanshu Pani
 description: Dr Sudhanshu Pani is currently a faculty at the School of Business Management, Mumbai. 
-
+logo: /assets/img/logo.png
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
