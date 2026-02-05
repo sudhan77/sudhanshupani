@@ -1,5 +1,31 @@
-- title: "Quadratic Voting: Extensions and Applications"
+- title: "Quadratic Variation in High-Resolution Markets Practical Applications and Extensions"
   file_path: "docs/papers/qv_applications_paper.pdf"
   category: "Position Paper"
   abstract: "The recent publication “On the quadratic variation in limit order markets” (Pani, 2024) established quadratic variation (QV) as a robust alternative to the bid-ask spread for high-resolution market microstructure analysis. Empirical findings revealed that QV from trades (29.73E-05) differs substantially from limit order book QV (68.52E-05), and that the limit-to-market (LTM) signal exhibits systematic patterns across activity levels, declining from 3.55 to 1.84 across quartiles. This position paper bridges theory to practice by identifying four high-impact application domains where these findings enable novel solutions (1) algorithmic trading and execution, where the trade-LOB QV split informs optimal execution and market-making strategies; (2) market surveillance, where QV anomalies detect manipulation; (3) intraday risk management, where multi-timescale QV improves volatility forecasting and hedging; and (4) cryptocurrency markets, where continuous QV monitoring addresses 24/7 trading challenges. We outline implementation frameworks and discuss why subsecond QV analysis has become essential in fragmented, high-frequency markets."
   keywords: Quadratic variation, limit order markets, high-frequency trading, market microstructure, manipulation detection, execution algorithms, cryptocurrency markets
+
+- title: "On the quadratic variation in limit order markets"
+  file_path: "https://doi.org/10.1016/j.bir.2024.01.008"
+  category: "Journal Article (2024)"
+  abstract: "Published in Borsa Istanbul Review. This paper examines the role of quadratic variation in limit order markets, providing empirical insights into price dynamics and market volatility."
+
+- title: "House price dynamics under lower leverage: the case of metropolitan cities in India"
+  file_path: "https://doi.org/10.1108/IJHMA-01-2023-0005"
+  category: "Journal Article (2024)"
+  abstract: "Published in the International Journal of Housing Markets and Analysis. Explores spatial heterogeneity in Indian housing markets, analyzing income elasticity, construction costs, and the impact of commercial bank lending."
+
+- title: "Liquidity in high resolution in limit order markets"
+  file_path: "https://doi.org/10.1504/IJFMD.2021.114782"
+  category: "Journal Article (2021)"
+  abstract: "Published in the International Journal of Financial Markets and Derivatives. Investigates liquidity dynamics at a high-frequency level, offering a granular view of how limit order books evolve."
+
+- title: "Are Asian exchanges outliers? A market quality criterion"
+  file_path: "https://www.businessperspectives.org/index.php/journals/investment-management-and-financial-innovations/issue-381/are-asian-exchanges-outliers-a-market-quality-criterion"
+  category: "Journal Article (2021)"
+  abstract: "Introduces a measure 'ω' to evaluate stock exchange market quality by extending the hypothesis of market microstructure invariance to Asian markets including NSE (India) and Korea Exchange."
+
+- title: "Investigating intertrade durations using copulas: an experiment with NASDAQ data"
+  file_path: "https://doi.org/10.3233/AF-220063"
+  category: "Journal Article (2022)"
+  abstract: "Published in Algorithmic Finance. Utilizes copula-based modeling to analyze the statistical relationship between time durations of trades on the NASDAQ, improving our understanding of trade clustering."
+
