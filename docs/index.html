@@ -6,13 +6,22 @@ title: Home
 <p>Welcome to my personal site. Here you can find my CV and more about me.</p>
 
 <h2>Research & Position Papers</h2>
-<ul>
-  <li>
-    <strong>Quadratic Voting: Extensions and Applications</strong><br>
-    <a href="docs/papers/qv_applications_paper.pdf" target="_blank">Download PDF</a> 
-    <span>(Position Paper)</span>
-  </li>
-  </ul>
+<div class="papers-container">
+  {% for paper in site.data.papers %}
+    <div style="margin-bottom: 25px; border-left: 3px solid #eee; padding-left: 15px;">
+      <h3 style="margin-bottom: 5px;">{{ paper.title }}</h3>
+      <small><strong>Category:</strong> {{ paper.category }}</small>
+      
+      <p style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 10px;">
+        {{ paper.abstract }}
+      </p>
+      
+      <a href="{{ paper.file_path }}" target="_blank" style="font-weight: bold;">
+        View Full PDF →
+      </a>
+    </div>
+  {% endfor %}
+</div>
 
 <hr>
 <h2>Recent Blog Posts</h2>
