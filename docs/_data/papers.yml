@@ -7,7 +7,8 @@
 - title: "On the quadratic variation in limit order markets"
   file_path: "https://doi.org/10.1016/j.bir.2024.01.008"
   category: "Journal Article (2024)"
-  abstract: "Published in Borsa Istanbul Review. This paper examines the role of quadratic variation in limit order markets, providing empirical insights into price dynamics and market volatility."
+  Journal: "Borsa Istanbul Review"
+  abstract: "This paper examines the role of quadratic variation in limit order markets, providing empirical insights into price dynamics and market volatility."
 
 - title: "House price dynamics under lower leverage: the case of metropolitan cities in India"
   file_path: "https://doi.org/10.1108/IJHMA-01-2023-0005"
@@ -32,6 +33,6 @@
 - title: "Investigating intertrade durations using copulas: an experiment with NASDAQ data"
   file_path: "https://doi.org/10.3233/AF-220063"
   category: "Journal Article (2022)"
-  abstract: "Published in Algorithmic Finance. Utilizes copula-based modeling to analyze the statistical relationship between time durations of trades on the NASDAQ, improving our understanding of trade clustering."
+  abstract: "The pattern of dependence between liquidity, durations (orders and trades) and bid-ask spreads in a limit order market are examined in high resolution invoking copulas and graph theory. Using intraday data from a sample of NASDAQ 100 stocks and an experimental design, we study the information pathways in markets in the presence of algorithmic traders. Our results confirm that multivariate analysis is more appropriate to investigate these information pathways. We observe that the strength and nature of the dependence between variables vary through the trading day. We confirm the existence of stylised aspects of algorithmic trading, such as tail dependence in trade durations, a balance between buy and sell side in order durations, liquidity and bid-ask spreads, and the bid-ask spread and liquidity trade-off in the dependence structure."
 
 
