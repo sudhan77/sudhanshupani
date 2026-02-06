@@ -1,0 +1,4 @@
+- title: "Test Paper Title"
+  file_path: "https://doi.org/10.1016/j.bir.2024.01.008"
+  category: "Test Category"
+  abstract: "If you see this abstract on the live site, the _data/papers.yml file loaded successfully."
