@@ -33,7 +33,6 @@
   Journal: "International Journal of Financial Markets and Derivatives 7 (4), pp 337-374"
   abstract: "The tatonnement process in high frequency order driven markets is modelled as a search by buyers for sellers and vice-versa. We propose a total order book model, comprising limit orders and latent orders, in the absence of a market maker. A zero intelligence approach of agents is employed using a diffusion-drift-reaction model, to explain the trading through continuous auctions (price and volume). The search (Levy or Brownian) for transaction price is the primary diffusion mechanism with other behavioural dynamics in the model inspired from foraging, chemotaxis and robotic search. Analytic and asymptotic analysis is provided for several scenarios and examples. Numerical simulation of the model extends our understanding of the relative performance between Brownian, superdiffusive and ballistic search in the model."
 
-
 - title: "Are Asian exchanges outliers? A market quality criterion"
   file_path: "https://www.businessperspectives.org/index.php/journals/investment-management-and-financial-innovations/issue-381/are-asian-exchanges-outliers-a-market-quality-criterion"
   category: "Journal Article (2021)"
