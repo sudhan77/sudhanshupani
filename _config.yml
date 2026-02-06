@@ -7,4 +7,5 @@ collections:
   articles:
     output: true
     permalink: /blog/:collection/:path/
-baseurl: "/sudhanshupani"
+baseurl: ""
+url: "https://sudhanshupani.github.io"
